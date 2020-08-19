@@ -36,7 +36,7 @@ function setup() {
 
 function draw() {
   noFill();
-  background(220);
+  background(255);
   
   // Draw Measurement lines
   DrawMeasureLines();

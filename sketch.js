@@ -7,9 +7,7 @@ let openWidthDialogButton;
 
 
 function setup() {
-  let cvs = createCanvas(400, 400);
-  
-  cvs.position((windowWidth - width / 2), (windowHeight - height) / 2);
+  createCanvas(400, 400);
   
   ellipseMode(CENTER);
   textAlign(CENTER);
